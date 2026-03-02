@@ -1,0 +1,5 @@
+python-telegram-bot==20.7
+requests==2.31.0
+yt-dlp==2024.1.19
+beautifulsoup4==4.12.3
+langdetect==1.0.9
