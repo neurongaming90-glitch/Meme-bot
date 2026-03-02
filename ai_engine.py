@@ -75,7 +75,7 @@ def call_groq(messages: list, max_tokens: int = 300) -> str:
     """Call Groq API."""
     try:
         payload = {
-            "model": "llama3-70b-8192",
+            "model": "llama-3.3-70b-versatile",
             "messages": messages,
             "temperature": 0.85,
             "max_tokens": max_tokens,
